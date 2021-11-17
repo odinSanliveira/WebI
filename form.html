@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Formulário de Inscrição</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text" id="myName" placeholder="Type your name"/>
+
+            </p>
+            <p>
+                <label>Lastname:</label>
+                <input type="text" id="myLastname" placeholder="Type your lastname"/>
+            </p>
+            <p>
+                <label>Age:</label>
+                <input type="number" id="myAge" placeholder="Type your age"/>
+            </p>
+            <p>
+                <label>E-mail:</label>
+                <input type="email" id="myEmail" placeholder="Type your E-mail"/>
+            </p>
+            <p>
+                <label>Gender: </label>
+                <input type = "radio" id="male" value = "M" name="gender">
+                <Label for="male">Male</Label>
+                <input type = "radio" id="female" value = "M" name="gender">
+                <Label for="female">Female</Label>
+                
+            </p>
+            <p>
+                <label >Photo: </label>
+                <input type="file" placeholder="Select a image from your gallery" accept=".png, jpeg">
+            </p>
+            <p>
+                <label>Country: </label>
+
+                <select>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Uruguai">Uruguai</option>
+                </select>
+            </p>
+            
+            <p> 
+                <label>Which language you like to code? </label>
+
+                <select size="3">
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Pearl">Pearl</option>
+                </select>
+            </p>
+            
+            <p>
+                <label>Areas of expertise</label>
+                 <input type = "checkbox" id = "computing" value = "computing" />
+                 <label for="computing">Computing</label>
+                 <input type = "checkbox" id = "management" value = "management" />
+                 <label for="management">Management</label>
+                 <input type = "checkbox" id = "pedagogy" value = "pedagogy" />
+                 <label for="pedagogy">Pedagogy</label>                
+            </p>
+
+
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+            
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
